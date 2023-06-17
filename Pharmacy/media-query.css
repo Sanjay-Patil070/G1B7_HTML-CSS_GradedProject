@@ -1,0 +1,48 @@
+@media screen and (min-width:1024px){
+  
+    .leftForm{
+        overflow: scroll;
+    }
+}
+
+@media screen and (min-width:800px){
+   
+    
+    .leftForm{
+        overflow: scroll;
+    }
+}
+
+@media screen and (min-width:600px){
+   
+    .fa-solid{
+        visibility:hidden;
+    }
+    .leftForm{
+        overflow: scroll;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .box1{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .box1 li a{
+        display: none ;
+    }
+    .fa-solid{
+        display: block;
+        color: black;
+    }
+    .slider{
+        background-size: contain;
+    }
+    .rightImg{
+        display: none;
+    }
+}
